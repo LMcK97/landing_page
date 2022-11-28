@@ -4,11 +4,13 @@ body {
 
 header {
     background-color: #1F2947;
+    padding: 10px;
 
 }
 
 ul {
     list-style-type: none;
+    display: flex;
 }
 
 a {
@@ -19,6 +21,7 @@ a {
     font-size: 48px;
     font-weight:bolder;
     color: #F9FAF8;
+    margin-bottom: 0px;
 }
 
 .hero-text {
@@ -36,4 +39,16 @@ button {
     color: white;
     padding: 4px 18px;
     border-radius: 8px;
+}
+
+.header-main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-image {
+    max-width: 400px;
+    max-height: 200px;
+    border: 2px solid black;
+    border-radius: 14px;
 }
