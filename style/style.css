@@ -11,6 +11,10 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main-text {
     font-size: 48px;
     font-weight:bolder;
@@ -25,4 +29,11 @@ ul {
 .logo {
     size: 24px;
     color: #F9FAF8;
+}
+
+button {
+    background-color:powderblue;
+    color: white;
+    padding: 4px 18px;
+    border-radius: 8px;
 }
