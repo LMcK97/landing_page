@@ -48,7 +48,7 @@ img {
     flex-direction: column;
     justify-content: center;
     padding: 0px;
-    margin-left: -180px;
+    margin-left: -150px;
     max-width: 50px;
     max-height: 30px;
 }
@@ -74,9 +74,8 @@ img {
 
 
 .header-image {
-    max-width: 600px;
+    max-width: 500px;
     max-height: 300px;
-    border: 1px solid black;
     border-radius: 14px;
     align-self: center;
     margin-left: 0px;
@@ -88,15 +87,16 @@ img {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    margin-left: 70px;
+    margin-left: 80px;
     align-self: center;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .header-main-container {
     display: flex;
     justify-content: space-around;
     padding: 50px;
+    margin: 0px;
 }
 
 /** End of header styles */
@@ -107,8 +107,26 @@ img {
     color: #1F2937;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .panels {
+   display: flex;
+   justify-content: center;
+}
+
+.panel-image {
+    width: 200px;
+    height: 210px;
+    margin: 20px;
+    margin-inline: 30px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    flex-shrink: 0;
+
+}
+
+.panels-text {
     display: flex;
+    text-align: center;
 }
