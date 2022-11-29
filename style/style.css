@@ -27,7 +27,7 @@ a {
     color: white;
 }
 
-button {
+header button {
     background-color: slategray;
     color: white;
     padding: 8px 30px;
@@ -37,9 +37,6 @@ button {
     font-size: 20px;
     font-weight: 600;
     text-decoration: underline;
-}
-
-img {
 }
 
 
@@ -156,5 +153,50 @@ color: #1F2937;
 align-self: flex-end;
 margin-left: 20px;
 margin-top: 40px;
+
+}
+
+.signup-container {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-box {
+    background-color:#3882F6;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.signup-text, .signup-subtext {
+color: #E5E7EB;
+}
+
+.signup-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-subtext {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.signup-container button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-color: white;
+    flex-grow: 0px;
+    align-self: flex-end;
+    padding: 8px 30px;
+    margin-top: -40px;
+    border-style:solid white;
+    border-radius: 5px;
+    font-weight: bold;
+
+
 
 }
