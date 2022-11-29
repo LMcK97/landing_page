@@ -26,9 +26,9 @@ a {
 }
 
 button {
-    background-color:powderblue;
+    background-color: teal;
     color: white;
-    padding: 4px 18px;
+    padding: 8px 30px;
     border-radius: 8px;
     align-self: flex-start;
     margin: 0px;
