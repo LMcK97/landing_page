@@ -110,15 +110,16 @@ img {
     margin-bottom: 30px;
 }
 
-.panels {
+.panels-container {
    display: flex;
    justify-content: center;
+
 }
 
 .panel-image {
     width: 200px;
     height: 210px;
-    margin: 20px;
+    margin-left: 20px auto;
     margin-inline: 30px;
     border: 3px solid #3882F6;
     border-radius: 20px;
@@ -126,7 +127,9 @@ img {
 
 }
 
-.panels-text {
-    display: flex;
-    text-align: center;
+.panels-sub-text {
+  color: gray;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
 }
