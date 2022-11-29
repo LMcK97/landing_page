@@ -28,7 +28,7 @@ a {
 }
 
 header button {
-    background-color: slategray;
+    background-color:#3882F6;
     color: white;
     padding: 8px 30px;
     border-radius: 8px;
@@ -36,7 +36,7 @@ header button {
     margin-top: 40px;
     font-size: 20px;
     font-weight: 600;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
