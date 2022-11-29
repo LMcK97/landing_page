@@ -113,6 +113,7 @@ img {
 .panels-container {
    display: flex;
    justify-content: center;
+   margin-bottom: 80px;
 
 }
 
@@ -132,4 +133,28 @@ img {
   font-style: italic;
   display: flex;
   justify-content: center;
+}
+
+.quote-container {
+background-color: #E5E7EB;
+display: flex;
+justify-content: center;
+padding: 100px;
+}
+
+.quote-main {
+font-size: 38px;
+font-style: italic;
+font-weight: lighter;
+color:#1F2937;
+}
+
+.quote-sub {
+font-size: 15px;
+font-style: bolder;
+color: #1F2937;
+align-self: flex-end;
+margin-left: 20px;
+margin-top: 40px;
+
 }
