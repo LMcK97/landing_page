@@ -196,7 +196,14 @@ color: #E5E7EB;
     border-style:solid white;
     border-radius: 5px;
     font-weight: bold;
+}
 
+footer {
+    background-color: #1F2937;
+    padding: 30px;
+}
 
-
+.footer-text {
+    color: #E5E7EB;
+    text-align: center;
 }
